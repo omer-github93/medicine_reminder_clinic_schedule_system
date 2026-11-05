@@ -244,6 +244,72 @@ On the **Login Page**:
 
 ---
 
+## 🤝 Contributing Guidelines
+
+We welcome contributions from developers, designers, translators, and healthcare advocates! Whether you are fixing a bug, adding a new feature, refining accessibility for elderly patients, or contributing a new language translation, your help is warmly appreciated.
+
+### 📋 Step-by-Step Contribution Workflow
+
+1. **Fork the Repository**
+   - Click the **Fork** button at the top-right of the GitHub repository page to create your personal copy.
+
+2. **Clone Your Fork**
+   ```bash
+   git clone https://github.com/your-username/medicine-reminder-system.git
+   cd medicine-reminder-system
+   ```
+
+3. **Create a Feature Branch**
+   - Name your branch descriptively following branch naming conventions:
+   ```bash
+   # For new features
+   git checkout -b feature/audio-pill-reminder
+
+   # For bug fixes
+   git checkout -b fix/rtl-schedule-alignment
+
+   # For translation updates
+   git checkout -b i18n/add-spanish-locale
+   ```
+
+4. **Install Dependencies & Start Developing**
+   ```bash
+   npm install
+   npm run dev
+   ```
+
+5. **Follow Project Standards**:
+   - **🧩 Component Modularity**: Place reusable UI components in `src/components/ui/`, feature widgets in `src/components/dashboard/`, and page-level layouts in `src/components/layout/`.
+   - **🌐 Maintain Tri-Lingual Sync (i18n)**: If you add any user-facing text, ensure matching keys are added to all three locale dictionaries:
+     - [`src/locales/en.json`](src/locales/en.json) (English)
+     - [`src/locales/ku.json`](src/locales/ku.json) (Kurdish / کوردی)
+     - [`src/locales/ar.json`](src/locales/ar.json) (Arabic / العربية)
+   - **♿ Elderly & Patient Accessibility**: Keep font sizes legible, maintain high contrast for readability, ensure interactive tap targets are at least `44x44px`, and verify RTL layout integrity when testing Arabic and Kurdish.
+   - **🎨 Tailwind CSS Utility Conventions**: Reuse the project's color palette tokens (`coral-500`, `navy-850`, `cream-100`) rather than arbitrary hex values where possible.
+
+6. **Verify Production Build**
+   - Before opening a Pull Request, verify that the production build succeeds without errors or warnings:
+   ```bash
+   npm run build
+   ```
+
+7. **Commit Your Changes**
+   - Use clear, conventional commit messages:
+   ```bash
+   git add .
+   git commit -m "feat(schedule): add audible alarm for upcoming dose"
+   ```
+   *Common prefixes: `feat:`, `fix:`, `docs:`, `style:`, `refactor:`, `i18n:`, `test:`, `chore:`*
+
+8. **Push to Your Fork & Open a Pull Request**
+   ```bash
+   git push origin feature/your-feature-name
+   ```
+   - Open a **Pull Request (PR)** against the `main` branch.
+   - Include a clear description of your changes, reference any related issues, and attach before/after screenshots for visual updates.
+
+---
+
 ## 📄 License
 
 This project is licensed under the **MIT License**. Feel free to use, modify, and distribute it for personal or commercial projects.
