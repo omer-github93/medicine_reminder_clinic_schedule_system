@@ -1,0 +1,118 @@
+{
+  "nav": {
+    "dashboard": "Dashboard",
+    "appointment": "Appointment",
+    "medicalTest": "Medical Test",
+    "medicalReport": "Medical Report",
+    "doctors": "Doctors",
+    "calendar": "Calendar",
+    "logout": "Logout"
+  },
+  "profile": {
+    "myProfile": "My profile",
+    "premiumMember": "Premium member",
+    "memberSince": "Member Since",
+    "bloodType": "Blood Type",
+    "emergencyContact": "Emergency Contact",
+    "editProfile": "Edit Profile",
+    "saveChanges": "Save Changes",
+    "cancel": "Cancel",
+    "fullName": "Full Name",
+    "email": "Email Address"
+  },
+  "header": {
+    "searchPlaceholder": "Search for clinic, medicine, etc ..",
+    "notifications": "Notifications",
+    "markAllRead": "Mark all as read"
+  },
+  "hero": {
+    "tag": "Medical Test",
+    "title": "The annual check is comming soon",
+    "subtitle": "Tomorrow, Jan 22, 2022",
+    "addToCalendar": "Add to Calendar",
+    "prepInstructions": "Test preparation instructions",
+    "reschedule": "Reschedule appointment"
+  },
+  "clinics": {
+    "title": "Visit the Clinics",
+    "sortBy": "Sort By",
+    "sortDate": "Date",
+    "sortName": "Name",
+    "sortRating": "Rating",
+    "viewMap": "View Map",
+    "reviews": "reviews",
+    "verified": "Verified Clinic",
+    "servicesTitle": "Available Medical Services",
+    "directions": "Directions",
+    "bookAppointment": "Book Appointment"
+  },
+  "medicines": {
+    "title": "Current Medicines",
+    "viewAll": "View All",
+    "showLess": "Show Less",
+    "pillsPerDay": "pills perday",
+    "taken": "Taken",
+    "markTaken": "Mark Taken Today",
+    "markUntaken": "Mark Untaken",
+    "usageInstructions": "Usage Instructions",
+    "reminderSlots": "Daily Reminder Slots",
+    "remainingSupply": "Remaining Supply",
+    "refillRequest": "Refill Request"
+  },
+  "schedule": {
+    "title": "Your Schedule",
+    "addReminder": "Add Reminder",
+    "addNewReminder": "Add New Reminder",
+    "agendaFor": "Agenda for",
+    "details": "Details",
+    "collapse": "Collapse",
+    "noItems": "No appointments or medicine scheduled for this day.",
+    "days": {
+      "Mon": "Mon",
+      "Tue": "Tue",
+      "Wed": "Wed",
+      "Thu": "Thu",
+      "Fri": "Fri"
+    }
+  },
+  "modal": {
+    "schedulePlanner": "Schedule Planner",
+    "addToCalendarTitle": "Add to Calendar",
+    "addToCalendarDesc": "Add a clinic checkup appointment or medicine reminder",
+    "clinicVisit": "Clinic Visit",
+    "medicineDose": "Medicine Dose",
+    "appointmentTitle": "Appointment / Test Title",
+    "medicineTitle": "Medicine Name",
+    "clinicDoctor": "Clinic Name / Doctor",
+    "dosageInstructions": "Dosage / Instructions",
+    "selectDay": "Select Day",
+    "timeSlot": "Time Slot",
+    "confirmAndAdd": "Confirm & Add"
+  },
+  "auth": {
+    "welcomeBack": "Welcome Back",
+    "loginSubtitle": "Please sign in to access your clinic schedule & medicine reminders",
+    "email": "Email Address",
+    "emailPlaceholder": "Enter your email (e.g. jone.doe@healthmail.com)",
+    "password": "Password",
+    "passwordPlaceholder": "Enter your password",
+    "rememberMe": "Remember me",
+    "forgotPassword": "Forgot password?",
+    "signIn": "Sign In to Dashboard",
+    "signingIn": "Signing in...",
+    "quickDemo": "Fill Demo Account",
+    "orContinueWith": "or continue with",
+    "dontHaveAccount": "Don't have an account?",
+    "signUp": "Create an account",
+    "errors": {
+      "emailRequired": "Email address is required",
+      "emailInvalid": "Please enter a valid email address",
+      "passwordRequired": "Password is required",
+      "passwordShort": "Password must be at least 6 characters"
+    },
+    "badge": "CarePoint Health Network",
+    "featureTitle": "Your Personal Health & Medicine Companion",
+    "featureDesc": "Manage prescriptions, doctor appointments, and 24/7 clinic consultations seamlessly in one place."
+  }
+}
+

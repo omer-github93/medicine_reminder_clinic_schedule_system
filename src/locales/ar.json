@@ -1,0 +1,118 @@
+{
+  "nav": {
+    "dashboard": "لوحة التحكم",
+    "appointment": "المواعيد",
+    "medicalTest": "الفحوصات الطبية",
+    "medicalReport": "التقارير الطبية",
+    "doctors": "الأطباء",
+    "calendar": "التقويم",
+    "logout": "تسجيل الخروج"
+  },
+  "profile": {
+    "myProfile": "ملفي الشخصي",
+    "premiumMember": "عضو مميز",
+    "memberSince": "عضو منذ",
+    "bloodType": "فصيلة الدم",
+    "emergencyContact": "جهة اتصال الطوارئ",
+    "editProfile": "تعديل الملف الشخصي",
+    "saveChanges": "حفظ التغييرات",
+    "cancel": "إلغاء",
+    "fullName": "الاسم الكامل",
+    "email": "البريد الإلكتروني"
+  },
+  "header": {
+    "searchPlaceholder": "ابحث عن عيادة، دواء، إلخ ..",
+    "notifications": "الإشعارات",
+    "markAllRead": "تحديد الكل كمقروء"
+  },
+  "hero": {
+    "tag": "فحص طبي",
+    "title": "الفحص السنوي قادم قريباً",
+    "subtitle": "غداً، ٢٢ يناير ٢٠٢٢",
+    "addToCalendar": "أضف إلى التقويم",
+    "prepInstructions": "تعليمات التحضير للفحص",
+    "reschedule": "إعادة جدولة الموعد"
+  },
+  "clinics": {
+    "title": "زيارة العيادات",
+    "sortBy": "ترتيب حسب",
+    "sortDate": "التاريخ",
+    "sortName": "الاسم",
+    "sortRating": "التقييم",
+    "viewMap": "عرض الخريطة",
+    "reviews": "تقييم",
+    "verified": "عيادة معتمدة",
+    "servicesTitle": "الخدمات الطبية المتاحة",
+    "directions": "الاتجاهات",
+    "bookAppointment": "حجز موعد"
+  },
+  "medicines": {
+    "title": "الأدوية الحالية",
+    "viewAll": "عرض الكل",
+    "showLess": "عرض أقل",
+    "pillsPerDay": "حبوب يومياً",
+    "taken": "تم تناوله",
+    "markTaken": "تسجيل تناول الجرعة",
+    "markUntaken": "إلغاء تسجيل التناول",
+    "usageInstructions": "تعليمات الاستخدام",
+    "reminderSlots": "أوقات التذكير اليومية",
+    "remainingSupply": "الكمية المتبقية",
+    "refillRequest": "طلب إعادة صرف"
+  },
+  "schedule": {
+    "title": "جدول مواعيدك",
+    "addReminder": "إضافة تذكير",
+    "addNewReminder": "إضافة تذكير جديد",
+    "agendaFor": "جدول يوم",
+    "details": "التفاصيل",
+    "collapse": "طي",
+    "noItems": "لا توجد مواعيد أو أدوية مجدولة لهذا اليوم.",
+    "days": {
+      "Mon": "الإثنين",
+      "Tue": "الثلاثاء",
+      "Wed": "الأربعاء",
+      "Thu": "الخميس",
+      "Fri": "الجمعة"
+    }
+  },
+  "modal": {
+    "schedulePlanner": "مخطط المواعيد",
+    "addToCalendarTitle": "إضافة إلى التقويم",
+    "addToCalendarDesc": "أضف موعد فحص في العيادة أو تذكير لتناول الدواء",
+    "clinicVisit": "زيارة العيادة",
+    "medicineDose": "جرعة دواء",
+    "appointmentTitle": "عنوان الموعد / الفحص",
+    "medicineTitle": "اسم الدواء",
+    "clinicDoctor": "اسم العيادة / الطبيب",
+    "dosageInstructions": "الجرعة / تعليمات الاستخدام",
+    "selectDay": "اختر اليوم",
+    "timeSlot": "الفترة الزمنية",
+    "confirmAndAdd": "تأكيد وإضافة"
+  },
+  "auth": {
+    "welcomeBack": "مرحباً بعودتك",
+    "loginSubtitle": "يرجى تسجيل الدخول للوصول إلى جدول العيادات وتذكيرات الأدوية",
+    "email": "البريد الإلكتروني",
+    "emailPlaceholder": "أدخل بريدك الإلكتروني (مثال jone.doe@healthmail.com)",
+    "password": "كلمة المرور",
+    "passwordPlaceholder": "أدخل كلمة المرور الخاصة بك",
+    "rememberMe": "تذكرني",
+    "forgotPassword": "نسيت كلمة المرور؟",
+    "signIn": "تسجيل الدخول إلى لوحة التحكم",
+    "signingIn": "جاري تسجيل الدخول...",
+    "quickDemo": "تعبئة حساب تجريبي",
+    "orContinueWith": "أو المتابعة باستخدام",
+    "dontHaveAccount": "ليس لديك حساب؟",
+    "signUp": "إنشاء حساب جديد",
+    "errors": {
+      "emailRequired": "البريد الإلكتروني مطلوب ولا يمكن تركه فارغاً",
+      "emailInvalid": "يرجى إدخال عنوان بريد إلكتروني صحيح",
+      "passwordRequired": "كلمة المرور مطلوبة ولا يمكن تركها فارغة",
+      "passwordShort": "يجب أن تتكون كلمة المرور من 6 أحرف على الأقل"
+    },
+    "badge": "شبكة كيربوينت الصحية",
+    "featureTitle": "رفيقك الشخصي للصحة وإدارة الأدوية",
+    "featureDesc": "إدارة الوصفات الطبية، مواعيد الأطباء، واستشارات العيادات على مدار 24 ساعة في مكان واحد."
+  }
+}
+

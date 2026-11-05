@@ -1,0 +1,217 @@
+<svg width="1200" height="800" viewBox="0 0 1200 800" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <!-- Gradients -->
+    <linearGradient id="bgGrad" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stopColor="#F9EFEB" />
+      <stop offset="100%" stopColor="#F6E7DF" />
+    </linearGradient>
+
+    <linearGradient id="btnCoral" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stopColor="#FF5C4D" />
+      <stop offset="50%" stopColor="#FF6E60" />
+      <stop offset="100%" stopColor="#FA7666" />
+    </linearGradient>
+
+    <linearGradient id="logoGrad" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stopColor="#FF5C4D" />
+      <stop offset="100%" stopColor="#FFA26B" />
+    </linearGradient>
+
+    <linearGradient id="sunsetSky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stopColor="#FA8271" />
+      <stop offset="50%" stopColor="#FBB09B" />
+      <stop offset="100%" stopColor="#FDD8C7" />
+    </linearGradient>
+
+    <filter id="cardShadow" x="60" y="70" width="1080" height="660" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+      <feDropShadow dx="0" dy="25" stdDeviation="35" flood-color="#7B3A2C" flood-opacity="0.12" />
+      <feDropShadow dx="0" dy="8" stdDeviation="12" flood-color="#000000" flood-opacity="0.04" />
+    </filter>
+
+    <filter id="btnShadow" x="0" y="0" width="100%" height="100%" filterUnits="userSpaceOnUse">
+      <feDropShadow dx="0" dy="8" stdDeviation="10" flood-color="#FF5C4D" flood-opacity="0.32" />
+    </filter>
+
+    <style>
+      .font-sans { font-family: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif; }
+    </style>
+  </defs>
+
+  <!-- BACKGROUND -->
+  <rect width="1200" height="800" fill="url(#bgGrad)" />
+
+  <!-- BOTANICAL ACCENTS -->
+  <!-- Top Right Vines -->
+  <g opacity="0.8">
+    <path d="M1200 40 C1130 60 1080 120 1040 190" stroke="#5A7D5A" stroke-width="2.5" stroke-linecap="round" />
+    <path d="M1100 80 C1080 60 1060 40 1040 45" stroke="#5A7D5A" stroke-width="2" stroke-linecap="round" />
+    <ellipse cx="1080" cy="95" rx="8" ry="16" transform="rotate(35 1080 95)" fill="#4F7942" />
+    <ellipse cx="1040" cy="140" rx="8" ry="16" transform="rotate(25 1040 140)" fill="#5E8C52" />
+    <ellipse cx="1010" cy="180" rx="8" ry="15" transform="rotate(15 1010 180)" fill="#6B9B5F" />
+    <circle cx="1030" cy="200" r="8" fill="#E24A3B" />
+    <circle cx="1046" cy="214" r="7" fill="#F05A4B" />
+    <circle cx="1014" cy="220" r="7.5" fill="#D83E30" />
+  </g>
+
+  <!-- Bottom Left Vines -->
+  <g opacity="0.8">
+    <path d="M20 800 C40 730 80 680 150 630" stroke="#5A7D5A" stroke-width="2.5" stroke-linecap="round" />
+    <ellipse cx="60" cy="740" rx="7" ry="15" transform="rotate(-35 60 740)" fill="#4F7942" />
+    <ellipse cx="100" cy="690" rx="8" ry="15" transform="rotate(-25 100 690)" fill="#5E8C52" />
+    <ellipse cx="140" cy="645" rx="8" ry="15" transform="rotate(-15 140 645)" fill="#6B9B5F" />
+  </g>
+
+  <!-- TOP NAVBAR -->
+  <g transform="translate(110, 42)">
+    <!-- Logo -->
+    <rect x="0" y="0" width="38" height="38" rx="12" fill="url(#logoGrad)" />
+    <!-- Heart Icon inside Logo -->
+    <path d="M19 14 C16 10 10 12 10 17 C10 22 19 28 19 28 C19 28 28 22 28 17 C28 12 22 10 19 14 Z" fill="#FFFFFF" />
+
+    <!-- Brand Name -->
+    <text x="48" y="22" fill="#0F172A" font-size="18" font-weight="800" class="font-sans" letter-spacing="-0.3">CarePoint</text>
+    <text x="48" y="34" fill="#FF5C4D" font-size="9" font-weight="800" class="font-sans" letter-spacing="1.5">HEALTH &amp; MEDICINE</text>
+
+    <!-- Language Switcher Pill -->
+    <rect x="800" y="3" width="105" height="32" rx="16" fill="#FFFFFF" stroke="#F1E5DF" stroke-width="1.2" />
+    <circle cx="818" cy="19" r="8" fill="#012169" />
+    <path d="M810 19 L826 19 M818 11 L818 27" stroke="#FFFFFF" stroke-width="2.5" />
+    <path d="M810 19 L826 19 M818 11 L818 27" stroke="#C8102E" stroke-width="1.5" />
+    <text x="832" y="23" fill="#334155" font-size="11" font-weight="700" class="font-sans">English</text>
+    <path d="M890 17 L894 21 L898 17" stroke="#94A3B8" stroke-width="1.8" stroke-linecap="round" fill="none" />
+
+    <!-- Explore Dashboard Button -->
+    <rect x="915" y="3" width="65" height="32" rx="16" fill="#FFFFFF" stroke="#F1E5DF" stroke-width="1.2" />
+    <text x="947" y="23" fill="#475569" font-size="11" font-weight="700" class="font-sans" text-anchor="middle">Dashboard →</text>
+  </g>
+
+  <!-- MAIN CARD CONTAINER (Split 2-Column) -->
+  <g filter="url(#cardShadow)">
+    <rect x="110" y="100" width="980" height="600" rx="30" fill="#FFFFFF" />
+
+    <!-- CLIP PATH FOR ROUNDED CORNERS -->
+    <clipPath id="cardClip">
+      <rect x="110" y="100" width="980" height="600" rx="30" />
+    </clipPath>
+
+    <!-- RIGHT SHOWCASE PANEL (Dark Navy) -->
+    <g clip-path="url(#cardClip)">
+      <rect x="630" y="100" width="460" height="600" fill="#121924" />
+
+      <!-- Faded Sunset Sky in Top Showcase -->
+      <g opacity="0.35">
+        <rect x="630" y="100" width="460" height="240" fill="url(#sunsetSky)" />
+        <circle cx="980" cy="160" r="35" fill="#FFEAA5" />
+        <!-- Palm Silhouette -->
+        <line x1="910" y1="260" x2="910" y2="170" stroke="#2B1810" stroke-width="4" stroke-linecap="round" />
+        <line x1="950" y1="260" x2="950" y2="150" stroke="#2B1810" stroke-width="4.5" stroke-linecap="round" />
+        <circle cx="910" cy="170" r="22" fill="#164E2F" />
+        <circle cx="950" cy="150" r="28" fill="#1C653C" />
+      </g>
+
+      <!-- Gradient Overlay on Showcase -->
+      <rect x="630" y="240" width="460" height="460" fill="#121924" opacity="0.95" />
+
+      <!-- Top Badge -->
+      <rect x="665" y="135" width="160" height="30" rx="15" fill="#FFFFFF" fill-opacity="0.1" stroke="#FFFFFF" stroke-opacity="0.15" />
+      <circle cx="682" cy="150" r="5" fill="#34D399" />
+      <text x="696" y="154" fill="#FFFFFF" font-size="11" font-weight="700" class="font-sans">Verified Medical Portal</text>
+      <text x="1035" y="154" fill="#94A3B8" font-size="11" font-weight="600" class="font-sans" text-anchor="end">24/7 Monitoring</text>
+
+      <!-- Headline -->
+      <text x="665" y="295" fill="#FFFFFF" font-size="24" font-weight="800" class="font-sans" letter-spacing="-0.5">Your Personal Health &amp;</text>
+      <text x="665" y="328" fill="#FFFFFF" font-size="24" font-weight="800" class="font-sans" letter-spacing="-0.5">Medicine Companion</text>
+
+      <text x="665" y="365" fill="#94A3B8" font-size="12" font-weight="500" class="font-sans">Manage prescriptions, doctor appointments, and 24/7 clinic</text>
+      <text x="665" y="385" fill="#94A3B8" font-size="12" font-weight="500" class="font-sans">consultations seamlessly in one place.</text>
+
+      <!-- Feature Card 1 -->
+      <rect x="665" y="420" width="390" height="60" rx="16" fill="#FFFFFF" fill-opacity="0.08" stroke="#FFFFFF" stroke-opacity="0.1" />
+      <rect x="680" y="434" width="32" height="32" rx="10" fill="#FF5C4D" />
+      <path d="M690 450 L694 454 L703 444" stroke="#FFFFFF" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" fill="none" />
+      <text x="724" y="448" fill="#FFFFFF" font-size="12" font-weight="700" class="font-sans">Annual Health Check Tomorrow</text>
+      <text x="724" y="464" fill="#94A3B8" font-size="11" font-weight="500" class="font-sans">09:00 AM • Sekarwangi Clinic &amp; Pharmacy</text>
+
+      <!-- Feature Card 2 -->
+      <rect x="665" y="495" width="390" height="60" rx="16" fill="#FFFFFF" fill-opacity="0.08" stroke="#FFFFFF" stroke-opacity="0.1" />
+      <rect x="680" y="509" width="32" height="32" rx="10" fill="#F59E0B" />
+      <circle cx="696" cy="525" r="7" fill="none" stroke="#FFFFFF" stroke-width="2" />
+      <path d="M696 521 L696 525 L699 527" stroke="#FFFFFF" stroke-width="1.8" stroke-linecap="round" />
+      <text x="724" y="523" fill="#FFFFFF" font-size="12" font-weight="700" class="font-sans">Smart Dose Reminders</text>
+      <text x="724" y="539" fill="#94A3B8" font-size="11" font-weight="500" class="font-sans">Ibuprofen &amp; Aluminium Hydroxide tracking</text>
+
+      <!-- Bottom Panel Footer -->
+      <line x1="665" y1="620" x2="1055" y2="620" stroke="#FFFFFF" stroke-opacity="0.1" />
+      <text x="665" y="648" fill="#64748B" font-size="11" font-weight="600" class="font-sans">CarePoint Health System v1.0</text>
+      <text x="1055" y="648" fill="#FF7266" font-size="11" font-weight="700" class="font-sans" text-anchor="end">Protected &amp; HIPAA Aligned</text>
+    </g>
+
+    <!-- LEFT LOGIN FORM -->
+    <g transform="translate(160, 140)">
+      <!-- Badge -->
+      <rect x="0" y="0" width="180" height="26" rx="13" fill="#FFF1F0" stroke="#FFE4E1" stroke-width="1" />
+      <circle cx="14" cy="13" r="3.5" fill="#FF5C4D" />
+      <text x="24" y="17" fill="#FF5C4D" font-size="10" font-weight="800" class="font-sans" letter-spacing="0.5">CAREPOINT HEALTH NETWORK</text>
+
+      <!-- Title & Subtitle -->
+      <text x="0" y="58" fill="#0F172A" font-size="28" font-weight="800" class="font-sans" letter-spacing="-0.8">Welcome Back</text>
+      <text x="0" y="82" fill="#64748B" font-size="12" font-weight="500" class="font-sans">Please sign in to access your clinic schedule &amp; medicine reminders</text>
+
+      <!-- FIELD 1: Email Address -->
+      <text x="0" y="130" fill="#334155" font-size="12" font-weight="700" class="font-sans">Email Address</text>
+      <!-- Input box with focus ring -->
+      <rect x="0" y="142" width="410" height="46" rx="14" fill="#FFFFFF" stroke="#FF5C4D" stroke-width="1.8" />
+      <!-- Mail Icon -->
+      <path d="M18 160 L32 170 L46 160" stroke="#FF5C4D" stroke-width="1.8" stroke-linecap="round" fill="none" />
+      <rect x="18" y="157" width="28" height="18" rx="2" stroke="#FF5C4D" stroke-width="1.8" fill="none" />
+      <text x="56" y="171" fill="#0F172A" font-size="13" font-weight="600" class="font-sans">jone.doe@healthmail.com</text>
+
+      <!-- FIELD 2: Password -->
+      <text x="0" y="218" fill="#334155" font-size="12" font-weight="700" class="font-sans">Password</text>
+      <!-- Input box -->
+      <rect x="0" y="230" width="410" height="46" rx="14" fill="#FFFFFF" stroke="#E2E8F0" stroke-width="1.2" />
+      <!-- Lock Icon -->
+      <rect x="23" y="250" width="18" height="14" rx="2" stroke="#94A3B8" stroke-width="1.8" fill="none" />
+      <path d="M26 250 L26 245 C26 241 38 241 38 245 L38 250" stroke="#94A3B8" stroke-width="1.8" fill="none" />
+      <!-- Password dots -->
+      <circle cx="60" cy="254" r="3" fill="#1E293B" />
+      <circle cx="70" cy="254" r="3" fill="#1E293B" />
+      <circle cx="80" cy="254" r="3" fill="#1E293B" />
+      <circle cx="90" cy="254" r="3" fill="#1E293B" />
+      <circle cx="100" cy="254" r="3" fill="#1E293B" />
+      <circle cx="110" cy="254" r="3" fill="#1E293B" />
+      <circle cx="120" cy="254" r="3" fill="#1E293B" />
+      <circle cx="130" cy="254" r="3" fill="#1E293B" />
+
+      <!-- Eye icon on right of password -->
+      <ellipse cx="385" cy="253" rx="8" ry="5" stroke="#94A3B8" stroke-width="1.5" fill="none" />
+      <circle cx="385" cy="253" r="2.5" fill="#94A3B8" />
+
+      <!-- Remember Me & Forgot Password -->
+      <rect x="0" y="292" width="16" height="16" rx="5" fill="#FF5C4D" />
+      <path d="M4 300 L7 303 L12 296" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" fill="none" />
+      <text x="26" y="304" fill="#475569" font-size="12" font-weight="600" class="font-sans">Remember me</text>
+      <text x="410" y="304" fill="#FF5C4D" font-size="12" font-weight="700" class="font-sans" text-anchor="end">Forgot password?</text>
+
+      <!-- Primary Sign In Button -->
+      <g transform="translate(0, 328)">
+        <rect x="0" y="0" width="410" height="48" rx="14" fill="url(#btnCoral)" />
+        <text x="180" y="30" fill="#FFFFFF" font-size="14" font-weight="700" class="font-sans" text-anchor="middle">Sign In to Dashboard</text>
+        <path d="M265 24 L272 29 L265 34" stroke="#FFFFFF" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" fill="none" />
+      </g>
+
+      <!-- 1-Click Quick Demo Button -->
+      <g transform="translate(100, 396)">
+        <rect x="0" y="0" width="210" height="30" rx="15" fill="#F8FAFC" stroke="#E2E8F0" stroke-width="1" />
+        <path d="M30 15 L36 9 L34 14 L40 14 L32 21 L34 16 Z" fill="#F59E0B" />
+        <text x="110" y="19" fill="#475569" font-size="11" font-weight="700" class="font-sans" text-anchor="middle">Fill Demo Account (1-Click)</text>
+      </g>
+
+      <!-- Footer Prompt -->
+      <text x="205" y="475" fill="#64748B" font-size="12" font-weight="500" class="font-sans" text-anchor="middle">
+        Don't have an account? <tspan fill="#FF5C4D" font-weight="700">Create an account</tspan>
+      </text>
+    </g>
+  </g>
+</svg>
+
