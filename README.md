@@ -201,8 +201,8 @@ Ensure you have **Node.js** (v18 or higher) installed on your machine.
 ### 2. Installation
 Clone the repository and install all dependencies:
 ```bash
-git clone https://github.com/your-username/medicine-reminder-system.git
-cd medicine-reminder-system
+git clone https://github.com/your-username/medicine_reminder_clinic_schedule_system.git
+cd medicine_reminder_clinic_schedule_system
 npm install
 ```
 
